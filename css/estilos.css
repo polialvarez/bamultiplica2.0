@@ -1,25 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
 
 li{
     list-style-type: none;
 }
 
 .titulos{
-    color:violet;
-    font-style: italic;
+    color:darkslateblue;
 }
 
 body{
     color:black;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    background-color: rgb(233, 224, 245);
 }
 
 body h1{
-    color:violet;
+    color:darkslateblue;
     font-weight: 600;
     font-size: 2.5rem;
     text-align: center;
+    font-family: 'Beth Ellen', sans-serif;
+    font-style: normal;
 }
 
 body h2{
@@ -31,15 +34,16 @@ body h2{
 header{
     
     border: solid;
+    border-color: darkslateblue;
 
     width: 80%;
     margin: 45px auto;
-
     }
 
 header div{
         
-        background-color: violet;
+        background-color: darkslateblue;
+        color: rgb(233, 224, 245);
         font-style:italic;
 }
 
@@ -47,6 +51,10 @@ header div img{
     height: 28px;
 }
 
+header nav{
+    background-image: url("../img/aprende-programacion.jpg");
+}
+
 #foot{
-    background-color: violet;
+    background-color: whitesmoke;
 }
