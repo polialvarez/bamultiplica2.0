@@ -20,3 +20,7 @@ let arrayCompuesto = [
 
 console.log(arrayCompuesto)
 
+// Propiedades de los arrays
+console.log(conjuntoVacio.lenght)
+console.log(arrayCompuesto[2].lenght)
+
