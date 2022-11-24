@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi formulario JS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h2>Para suscribirte:</h2>
+    <form action="./gracias.html" method="post"> 
+        <ul>
+            <li>
+                <label for="nombre">Dejá tu nombre acá:</label>
+                <input type="text" id="nombre" name="user_name">
+            </li>
+            <li>
+                <label for="correo">Dejanos tu email</label>
+                <input type="email" id="correo"
+                name="user_mail">
+            </li>
+            <li>
+                <label for="mensaje">Dejanos tu mensajito</label>
+                <textarea name="mensaje" id="mensaje" cols="15" rows="5"></textarea>
+            </li>
+            <li class="boton">
+                <button type="submit">Enviar mensaje</button>
+            </li>
+        </ul>
+    </form>
+    
+</body>
+</html>
+
+
+<!-- Métodos de form -->
+<!-- GET => Leer información de la página -->
+<!-- POST => Insertar información recibida (creando registros, si es en API). En elemento Form, el método siempre es POST -->
+<!-- DELETE => Eliminar información. De dos formas: 1) Seleccionando información con GET y luego DELETE; 2) Con el form pasas información, haces action y agregas DELETE -->
+<!-- UPDATE => Actualizar / sobreescribir información (reemplaza la información de un registro existente en API; si no existe, lo crea) -->
