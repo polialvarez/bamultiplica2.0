@@ -62,3 +62,15 @@ function alertaClick() {
     alert("Click identificado")
 };
 
+// Clase 22-11 funciones asíncronas
+//
+// async function mostrarTexto() {
+//     let miPromesa = new Promise(function(resolve) [
+//         setTimeout(function() {resolve("¡¡Hola!!");}, 3000);
+//     ]);
+//     document.getElementById("elemento").innetHTML = await miPromesa;
+// }
+//
+// mostrarTexto()
+
+
